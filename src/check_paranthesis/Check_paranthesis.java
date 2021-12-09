@@ -6,6 +6,8 @@ import java.util.*;
 public class Check_paranthesis {
 
     public static void main(String[] args) throws Exception {
+    	System.out.print("Please Input a string to check for parentheses: ");
+    	
          Scanner scn = new Scanner(System.in);
          Stack<Character> stk = new Stack<>();
          String str = scn.nextLine();

@@ -18,7 +18,7 @@ public class Main_Employee_Class {
 		ObjectOutputStream oos = null;
 		ObjectInputStream ois = null;
 		
-		File f = new File("C:\\Users\\Lucky\\project_Employee_Management_System\\src\save.txt");
+		File f = new File("D:\\Priyanka\\Assignments\\save.txt");
 		if(f.exists()) {
 		    try {
 				fos = new FileInputStream(f);
